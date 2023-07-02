@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title> ร้านก๋วยเตี๋ยวเรือคุณหมื่น สูตรโบราณ</title>
+	<title> ร้านก๋วยเตี๋ยวเรือคุณหมื่น สูตรโบราณ  </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
@@ -39,7 +39,7 @@
 <style>
 @font-face {
   font-family: Kanit-Light;
-  src: url('fonts/Kanit-Light.ttf'); 
+  src: url('fonts/NotoSansThai-Regular.ttf'); 
 }
  
 .serif {
@@ -48,53 +48,61 @@
 
 </style>
 	
-<body  class="serif"   style=" background-image: url('images/bg2.png');
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
-  background-size: cover;" >
+ <body  class="serif" style=" background-image: url('images/bg.png');  background-repeat: no-repeat;  background-attachment: fixed; background-size: cover;">
 	 
-	
-	<div class=" " style="margin-top: -50px;">
+	 
+	<div class="row">  
+	<div class="container"> </div>
+	<div class="container">
+		  
 		<div class="container-login100"  >
-			<div  >
-				<form  action="check_login2.php" method="post" >
-					
-					<div align="center"  >  
-					 <img src="logo.png" style="height: 150px; margin-bottom: 10px; " > 
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54" style=" background-color: #FFF; border: 1px solid #4361EE; ">
+				<form class="login100-form validate-form"  action="check_login.php" method="post" >
+					 
+					<div align="center" style="margin-top: -50px;">  
+					 <img src="logo.png" style="height: 120px; margin-top: 20px;" >  <Br><Br>
 				    </div>
 					
-					<div align="center" style="margin-top: 20px; border:  0px solid #000;"   >  
-					<font size="4px" color="#000000"> 
-						<font size="4px" color="#000000">   ร้านก๋วยเตี๋ยวเรือคุณหมื่น สูตรโบราณ <br> </font>
-						<font size="4px" color="#000000"> สูตรโบราณ <br> </font> 
+					<div align="center">  
+					<font size="5px" color="black"> 
+						<font size="5px" color="black">  ร้านก๋วยเตี๋ยวเรือคุณหมื่น สูตรโบราณ </font>  <br> <br>  
+						 
 					</font>
 				    </div>
-					   
-					<div class="col-lg-12" style="margin-top: 40px; border:  0px solid #000;" >
-			    	
-			    	 <a href="register/index.php">   
-				     <button type="button" class="btn btn-sm "  style="background-color: #CF6404; border: 1px solid #CF6404;  border-radius: 20px; margin-top: 5px; font-size: 10px; width: 100%; height: 32px;  "> 
-					 <font size="2px" color="white" >  จองโต๊ะที่นั่ง  </font> </button>   </a>
-			    	
-			    	
-			    	<a href="ca/index.php">
-			    		 
-				     <button type="button"  class="btn btn-sm "  style=" background-color: #FFFFFF; border: 1px solid #CF6404;  border-radius: 20px; margin-top: 15px; font-size: 10px;  width: 100%;  height: 32px;   "   />   
-					 <font size="2px" color="#000" >   เเสกนคิวอาร์โค้ดสั่งอาหาร   </font> </button>
-			    	
-			    	</a>
-				    	   
-				
-				
+					 
+					<div class="col-lg-12" >
+						<font size="4px" color="black">   ชื่อผู้ใช้ :  </font>
+						<input class="input100" type="text" name="username" placeholder="  " style="background-color: #FFF; border-radius: 5px;  height: 40px; border: 1px solid #31404D; ">  
+					<br> 
+						<font size="4px" color="black">  รหัสผ่าน :   </font>
+						<input class="input100" type="password" name="password" placeholder="  " style="background-color: #FFF; border-radius: 5px; height: 40px;  border: 1px solid #31404D;  ">  
 					</div>
-   
+					 
+					<br> 
+					<div class="col-lg-12" >
+				    	<table width="100%" border="0">
+				    		<tr>
+				    			<td width="50%" align="center">   
+				    			<button type="submit" class="btn "  style="background-color: #CF6404; border-radius: 10px; margin-top: 5px; font-size: 10px; width: 95%;  "> <font size="4px" color="white" >  เข้าสู่ระบบ  </font> </button>  </td> 
+				    			
+				    			<td width="50%" align="center">   
+				    			<button type="button" class="btn "  style="background-color: #FFFFFF; border-radius: 10px; margin-top: 5px; font-size: 10px; width: 100%; border: 1px solid #2F3E46; "> <font size="4px" color="black" >  ยกเลิก  </font> </button>  </td> 
+				    		</tr>
+				    	</table> 
+					</div>
+					<br>
+  
+			
 				</form>
 			</div>
 		</div>
+	 
+	 
 	</div>
-	
- 
+	</div>
 				 
+ 
+	
 <!--===============================================================================================-->
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
@@ -112,5 +120,8 @@
 <!--===============================================================================================-->
 	<script src="js/main.js"></script>
 	 
+	 
+	 
+
 </body>
 </html>
